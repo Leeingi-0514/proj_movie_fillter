@@ -1,0 +1,21 @@
+{
+  "title": "Quiet Place",
+  "segments": [
+    {
+      "id": "Quiet-001",
+      "start": 11,
+      "end": 12.5,
+      "type": "blur",
+      "reason": "정신 차린 괴물의 습격",
+      "summary": "괴물이 습격합니다."
+    },
+    {
+      "id": "Quiet-002",
+      "start": 13.2,
+      "end": 15.2,
+      "type": "blur",
+      "reason": "에블린의 반격",
+      "summary": "에블린이 반격합니다."
+    }
+  ]
+}

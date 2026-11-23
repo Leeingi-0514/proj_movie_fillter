@@ -1,0 +1,12 @@
+["/Library/Developer/CommandLineTools/usr/bin/python3", "-m", "subfilter", "/Users/lee/Documents/ChatGPT/movie_guard 2/artifacts/subfilter-validation-2026-11-17/fixtures/utf8_bom.srt", "-o", "/Users/lee/Documents/ChatGPT/movie_guard 2/artifacts/subfilter-validation-2026-11-17/outputs/utf8_bom.json", "--cache-dir", "", "--mock"]
+exit=0
+STDOUT
+완료: /Users/lee/Documents/ChatGPT/movie_guard 2/artifacts/subfilter-validation-2026-11-17/outputs/utf8_bom.json  (구간 3개)
+  공포   장면   1개, 최고 심각도 2
+  선정성  장면   1개, 최고 심각도 3
+  폭력성  장면   1개, 최고 심각도 3
+
+STDERR
+
+분석 중... 0/1 청크
+분석 중... 1/1 청크

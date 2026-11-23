@@ -1,0 +1,1024 @@
+{
+  "source": "/Users/lee/Downloads/subfilter 2",
+  "python": "3.9.6 (default, May 22 2026, 11:13:45) \n[Clang 21.0.0 (clang-2100.1.1.101)]",
+  "workspace": "/Users/lee/Documents/ChatGPT/movie_guard 2",
+  "live_api_tested": false,
+  "live_api_reason": "ANTHROPIC_API_KEY is absent; anthropic SDK is not installed.",
+  "counts": {
+    "total": 51,
+    "passed": 46,
+    "failed": 4,
+    "notes": 1
+  },
+  "results": [
+    {
+      "name": "shipped srt: CLI returns success",
+      "passed": true,
+      "status": "PASS",
+      "kind": "required",
+      "mode": "mock",
+      "expected": 0,
+      "actual": 0,
+      "detail": null
+    },
+    {
+      "name": "shipped srt: parser cue count",
+      "passed": true,
+      "status": "PASS",
+      "kind": "required",
+      "mode": "offline",
+      "expected": 11,
+      "actual": 11,
+      "detail": null
+    },
+    {
+      "name": "shipped srt: second-based boundaries",
+      "passed": true,
+      "status": "PASS",
+      "kind": "required",
+      "mode": "mock",
+      "expected": [
+        [
+          43,
+          50
+        ],
+        [
+          151,
+          156
+        ],
+        [
+          248,
+          256
+        ]
+      ],
+      "actual": [
+        [
+          43,
+          50
+        ],
+        [
+          151,
+          156
+        ],
+        [
+          248,
+          256
+        ]
+      ],
+      "detail": null
+    },
+    {
+      "name": "shipped vtt: CLI returns success",
+      "passed": true,
+      "status": "PASS",
+      "kind": "required",
+      "mode": "mock",
+      "expected": 0,
+      "actual": 0,
+      "detail": null
+    },
+    {
+      "name": "shipped vtt: parser cue count",
+      "passed": true,
+      "status": "PASS",
+      "kind": "required",
+      "mode": "offline",
+      "expected": 2,
+      "actual": 2,
+      "detail": null
+    },
+    {
+      "name": "shipped vtt: second-based boundaries",
+      "passed": true,
+      "status": "PASS",
+      "kind": "required",
+      "mode": "mock",
+      "expected": [
+        [
+          3610,
+          3614
+        ]
+      ],
+      "actual": [
+        [
+          3610,
+          3614
+        ]
+      ],
+      "detail": null
+    },
+    {
+      "name": "shipped ass: CLI returns success",
+      "passed": true,
+      "status": "PASS",
+      "kind": "required",
+      "mode": "mock",
+      "expected": 0,
+      "actual": 0,
+      "detail": null
+    },
+    {
+      "name": "shipped ass: parser cue count",
+      "passed": true,
+      "status": "PASS",
+      "kind": "required",
+      "mode": "offline",
+      "expected": 2,
+      "actual": 2,
+      "detail": null
+    },
+    {
+      "name": "shipped ass: second-based boundaries",
+      "passed": true,
+      "status": "PASS",
+      "kind": "required",
+      "mode": "mock",
+      "expected": [
+        [
+          250,
+          254
+        ]
+      ],
+      "actual": [
+        [
+          250,
+          254
+        ]
+      ],
+      "detail": null
+    },
+    {
+      "name": "shipped smi: CLI returns success",
+      "passed": true,
+      "status": "PASS",
+      "kind": "required",
+      "mode": "mock",
+      "expected": 0,
+      "actual": 0,
+      "detail": null
+    },
+    {
+      "name": "shipped smi: parser cue count",
+      "passed": true,
+      "status": "PASS",
+      "kind": "required",
+      "mode": "offline",
+      "expected": 2,
+      "actual": 2,
+      "detail": null
+    },
+    {
+      "name": "shipped smi: second-based boundaries",
+      "passed": true,
+      "status": "PASS",
+      "kind": "required",
+      "mode": "mock",
+      "expected": [
+        [
+          43,
+          47
+        ]
+      ],
+      "actual": [
+        [
+          43,
+          47
+        ]
+      ],
+      "detail": null
+    },
+    {
+      "name": "mixed SRT: CLI/title",
+      "passed": true,
+      "status": "PASS",
+      "kind": "required",
+      "mode": "mock",
+      "expected": [
+        0,
+        "합성 장면 테스트"
+      ],
+      "actual": [
+        0,
+        "합성 장면 테스트"
+      ],
+      "detail": null
+    },
+    {
+      "name": "mixed SRT: padding and floor/ceil",
+      "passed": true,
+      "status": "PASS",
+      "kind": "required",
+      "mode": "mock",
+      "expected": [
+        [
+          8,
+          14
+        ],
+        [
+          38,
+          45
+        ],
+        [
+          78,
+          85
+        ]
+      ],
+      "actual": [
+        [
+          8,
+          14
+        ],
+        [
+          38,
+          45
+        ],
+        [
+          78,
+          85
+        ]
+      ],
+      "detail": null
+    },
+    {
+      "name": "neutral SRT: valid empty result",
+      "passed": true,
+      "status": "PASS",
+      "kind": "required",
+      "mode": "mock",
+      "expected": [
+        0,
+        []
+      ],
+      "actual": [
+        0,
+        []
+      ],
+      "detail": null
+    },
+    {
+      "name": "category filter",
+      "passed": true,
+      "status": "PASS",
+      "kind": "required",
+      "mode": "mock",
+      "expected": [
+        [
+          78,
+          85
+        ]
+      ],
+      "actual": [
+        [
+          78,
+          85
+        ]
+      ],
+      "detail": null
+    },
+    {
+      "name": "severity filter for separated scenes",
+      "passed": true,
+      "status": "PASS",
+      "kind": "required",
+      "mode": "mock",
+      "expected": [
+        [
+          38,
+          45
+        ],
+        [
+          78,
+          85
+        ]
+      ],
+      "actual": [
+        [
+          38,
+          45
+        ],
+        [
+          78,
+          85
+        ]
+      ],
+      "detail": null
+    },
+    {
+      "name": "confidence filter",
+      "passed": true,
+      "status": "PASS",
+      "kind": "required",
+      "mode": "mock",
+      "expected": [],
+      "actual": [],
+      "detail": null
+    },
+    {
+      "name": "205 cues: chunk boundaries and merging",
+      "passed": true,
+      "status": "PASS",
+      "kind": "required",
+      "mode": "mock",
+      "expected": [
+        [
+          488,
+          503
+        ],
+        [
+          993,
+          1003
+        ]
+      ],
+      "actual": [
+        [
+          488,
+          503
+        ],
+        [
+          993,
+          1003
+        ]
+      ],
+      "detail": null
+    },
+    {
+      "name": "utf8_bom: Korean text survives decoding",
+      "passed": true,
+      "status": "PASS",
+      "kind": "required",
+      "mode": "offline",
+      "expected": [
+        "오늘 같이 산책할까?",
+        "[비명] 누구야!",
+        "옷을 벗어. 침대로 가자.",
+        "[총성] 칼을 내려놔!",
+        "내일 다시 만나자."
+      ],
+      "actual": [
+        "오늘 같이 산책할까?",
+        "[비명] 누구야!",
+        "옷을 벗어. 침대로 가자.",
+        "[총성] 칼을 내려놔!",
+        "내일 다시 만나자."
+      ],
+      "detail": null
+    },
+    {
+      "name": "utf8_bom: exported boundaries",
+      "passed": true,
+      "status": "PASS",
+      "kind": "required",
+      "mode": "mock",
+      "expected": [
+        [
+          8,
+          14
+        ],
+        [
+          38,
+          45
+        ],
+        [
+          78,
+          85
+        ]
+      ],
+      "actual": [
+        [
+          8,
+          14
+        ],
+        [
+          38,
+          45
+        ],
+        [
+          78,
+          85
+        ]
+      ],
+      "detail": null
+    },
+    {
+      "name": "utf16: Korean text survives decoding",
+      "passed": true,
+      "status": "PASS",
+      "kind": "required",
+      "mode": "offline",
+      "expected": [
+        "오늘 같이 산책할까?",
+        "[비명] 누구야!",
+        "옷을 벗어. 침대로 가자.",
+        "[총성] 칼을 내려놔!",
+        "내일 다시 만나자."
+      ],
+      "actual": [
+        "오늘 같이 산책할까?",
+        "[비명] 누구야!",
+        "옷을 벗어. 침대로 가자.",
+        "[총성] 칼을 내려놔!",
+        "내일 다시 만나자."
+      ],
+      "detail": null
+    },
+    {
+      "name": "utf16: exported boundaries",
+      "passed": true,
+      "status": "PASS",
+      "kind": "required",
+      "mode": "mock",
+      "expected": [
+        [
+          8,
+          14
+        ],
+        [
+          38,
+          45
+        ],
+        [
+          78,
+          85
+        ]
+      ],
+      "actual": [
+        [
+          8,
+          14
+        ],
+        [
+          38,
+          45
+        ],
+        [
+          78,
+          85
+        ]
+      ],
+      "detail": null
+    },
+    {
+      "name": "cp949: Korean text survives decoding",
+      "passed": true,
+      "status": "PASS",
+      "kind": "required",
+      "mode": "offline",
+      "expected": [
+        "오늘 같이 산책할까?",
+        "[비명] 누구야!",
+        "옷을 벗어. 침대로 가자.",
+        "[총성] 칼을 내려놔!",
+        "내일 다시 만나자."
+      ],
+      "actual": [
+        "오늘 같이 산책할까?",
+        "[비명] 누구야!",
+        "옷을 벗어. 침대로 가자.",
+        "[총성] 칼을 내려놔!",
+        "내일 다시 만나자."
+      ],
+      "detail": null
+    },
+    {
+      "name": "cp949: exported boundaries",
+      "passed": true,
+      "status": "PASS",
+      "kind": "required",
+      "mode": "mock",
+      "expected": [
+        [
+          8,
+          14
+        ],
+        [
+          38,
+          45
+        ],
+        [
+          78,
+          85
+        ]
+      ],
+      "actual": [
+        [
+          8,
+          14
+        ],
+        [
+          38,
+          45
+        ],
+        [
+          78,
+          85
+        ]
+      ],
+      "detail": null
+    },
+    {
+      "name": "error empty: rejects without output",
+      "passed": true,
+      "status": "PASS",
+      "kind": "required",
+      "mode": "mock",
+      "expected": [
+        1,
+        null
+      ],
+      "actual": [
+        1,
+        null
+      ],
+      "detail": null
+    },
+    {
+      "name": "error malformed: rejects without output",
+      "passed": true,
+      "status": "PASS",
+      "kind": "required",
+      "mode": "mock",
+      "expected": [
+        1,
+        null
+      ],
+      "actual": [
+        1,
+        null
+      ],
+      "detail": null
+    },
+    {
+      "name": "error missing_file: rejects without output",
+      "passed": true,
+      "status": "PASS",
+      "kind": "required",
+      "mode": "mock",
+      "expected": [
+        1,
+        null
+      ],
+      "actual": [
+        1,
+        null
+      ],
+      "detail": null
+    },
+    {
+      "name": "error bad_categories: rejects without output",
+      "passed": true,
+      "status": "PASS",
+      "kind": "required",
+      "mode": "mock",
+      "expected": [
+        2,
+        null
+      ],
+      "actual": [
+        2,
+        null
+      ],
+      "detail": null
+    },
+    {
+      "name": "error bad_chunk_size: rejects without output",
+      "passed": true,
+      "status": "PASS",
+      "kind": "required",
+      "mode": "mock",
+      "expected": [
+        2,
+        null
+      ],
+      "actual": [
+        2,
+        null
+      ],
+      "detail": null
+    },
+    {
+      "name": "real mode without API key: explicit failure",
+      "passed": true,
+      "status": "PASS",
+      "kind": "required",
+      "mode": "offline",
+      "expected": [
+        1,
+        null,
+        true
+      ],
+      "actual": [
+        1,
+        null,
+        true
+      ],
+      "detail": null
+    },
+    {
+      "name": "web: audio/video/both output accepted",
+      "passed": false,
+      "status": "FAIL",
+      "kind": "required",
+      "mode": "scripted",
+      "expected": true,
+      "actual": false,
+      "detail": {
+        "path": "/Users/lee/Documents/ChatGPT/movie_guard 2/artifacts/subfilter-validation-2026-11-17/outputs/media_modes.json",
+        "types": [
+          "audio",
+          "video",
+          "both"
+        ],
+        "web": {
+          "accepted": false,
+          "error": "필터 구간의 ID, 시작·종료 시간, 필터 종류와 요약 문자열을 확인해 주세요."
+        },
+        "extension": {
+          "accepted": false,
+          "error": "1번째 구간의 type은 blur, mute, both, skip 중 하나여야 합니다."
+        }
+      }
+    },
+    {
+      "name": "extension: audio/video/both output accepted",
+      "passed": false,
+      "status": "FAIL",
+      "kind": "required",
+      "mode": "scripted",
+      "expected": true,
+      "actual": false,
+      "detail": {
+        "path": "/Users/lee/Documents/ChatGPT/movie_guard 2/artifacts/subfilter-validation-2026-11-17/outputs/media_modes.json",
+        "types": [
+          "audio",
+          "video",
+          "both"
+        ],
+        "web": {
+          "accepted": false,
+          "error": "필터 구간의 ID, 시작·종료 시간, 필터 종류와 요약 문자열을 확인해 주세요."
+        },
+        "extension": {
+          "accepted": false,
+          "error": "1번째 구간의 type은 blur, mute, both, skip 중 하나여야 합니다."
+        }
+      }
+    },
+    {
+      "name": "overlapping subtitles: entire detected cue range covered",
+      "passed": false,
+      "status": "FAIL",
+      "kind": "required",
+      "mode": "scripted",
+      "expected": [
+        [
+          10,
+          30
+        ]
+      ],
+      "actual": [
+        [
+          10,
+          16
+        ]
+      ],
+      "detail": null
+    },
+    {
+      "name": "severity 3 filter excludes adjacent severity 1 cue",
+      "passed": false,
+      "status": "NOTE",
+      "kind": "behavior_note",
+      "mode": "scripted",
+      "expected": [
+        [
+          14,
+          16
+        ]
+      ],
+      "actual": [
+        [
+          10,
+          16
+        ]
+      ],
+      "detail": "Category-level merging assigns max severity before the export filter. This is a behavior note: the merged scene can intentionally inherit its highest severity."
+    },
+    {
+      "name": "cache: repeated run avoids analyzer calls",
+      "passed": true,
+      "status": "PASS",
+      "kind": "required",
+      "mode": "scripted",
+      "expected": [
+        5,
+        0
+      ],
+      "actual": [
+        5,
+        0
+      ],
+      "detail": null
+    },
+    {
+      "name": "partial failure: incomplete report identifies missing chunk",
+      "passed": true,
+      "status": "PASS",
+      "kind": "required",
+      "mode": "scripted",
+      "expected": [
+        false,
+        [
+          1
+        ]
+      ],
+      "actual": [
+        false,
+        [
+          1
+        ]
+      ],
+      "detail": null
+    },
+    {
+      "name": "partial failure: retry calls only failed chunk",
+      "passed": true,
+      "status": "PASS",
+      "kind": "required",
+      "mode": "scripted",
+      "expected": [
+        true,
+        [
+          1
+        ]
+      ],
+      "actual": [
+        true,
+        [
+          1
+        ]
+      ],
+      "detail": null
+    },
+    {
+      "name": "total failure: raises instead of exporting empty success",
+      "passed": true,
+      "status": "PASS",
+      "kind": "required",
+      "mode": "scripted",
+      "expected": true,
+      "actual": true,
+      "detail": null
+    },
+    {
+      "name": "API response replay: two passes decode and validate",
+      "passed": true,
+      "status": "PASS",
+      "kind": "required",
+      "mode": "fake-api",
+      "expected": [
+        2,
+        [
+          "audio",
+          "video",
+          "both"
+        ]
+      ],
+      "actual": [
+        2,
+        [
+          "audio",
+          "video",
+          "both"
+        ]
+      ],
+      "detail": null
+    },
+    {
+      "name": "HTTP configuration",
+      "passed": true,
+      "status": "PASS",
+      "kind": "required",
+      "mode": "http-mock",
+      "expected": 200,
+      "actual": 200,
+      "detail": null
+    },
+    {
+      "name": "HTTP SRT upload",
+      "passed": true,
+      "status": "PASS",
+      "kind": "required",
+      "mode": "http-mock",
+      "expected": 202,
+      "actual": 202,
+      "detail": null
+    },
+    {
+      "name": "HTTP job completes",
+      "passed": true,
+      "status": "PASS",
+      "kind": "required",
+      "mode": "http-mock",
+      "expected": "done",
+      "actual": "done",
+      "detail": null
+    },
+    {
+      "name": "HTTP download: title, times, attachment",
+      "passed": true,
+      "status": "PASS",
+      "kind": "required",
+      "mode": "http-mock",
+      "expected": [
+        200,
+        "웹 검증 영화",
+        [
+          [
+            8,
+            14
+          ],
+          [
+            38,
+            45
+          ],
+          [
+            78,
+            85
+          ]
+        ],
+        true
+      ],
+      "actual": [
+        200,
+        "웹 검증 영화",
+        [
+          [
+            8,
+            14
+          ],
+          [
+            38,
+            45
+          ],
+          [
+            78,
+            85
+          ]
+        ],
+        true
+      ],
+      "detail": null
+    },
+    {
+      "name": "HTTP category/severity filter",
+      "passed": true,
+      "status": "PASS",
+      "kind": "required",
+      "mode": "http-mock",
+      "expected": [
+        [
+          78,
+          85
+        ]
+      ],
+      "actual": [
+        [
+          78,
+          85
+        ]
+      ],
+      "detail": null
+    },
+    {
+      "name": "HTTP deselecting every category yields empty segments",
+      "passed": false,
+      "status": "FAIL",
+      "kind": "required",
+      "mode": "http-mock",
+      "expected": [],
+      "actual": [
+        {
+          "id": "seg-001",
+          "start": 8,
+          "end": 14,
+          "type": "both",
+          "reason": "공포: 키워드 감지: 비명",
+          "summary": "(mock 모드: 장면 요약 생략)"
+        },
+        {
+          "id": "seg-002",
+          "start": 38,
+          "end": 45,
+          "type": "both",
+          "reason": "선정성: 키워드 감지: 침대, 벗어, 옷을",
+          "summary": "(mock 모드: 장면 요약 생략)"
+        },
+        {
+          "id": "seg-003",
+          "start": 78,
+          "end": 85,
+          "type": "both",
+          "reason": "폭력성: 키워드 감지: 총성, 총, 칼",
+          "summary": "(mock 모드: 장면 요약 생략)"
+        }
+      ],
+      "detail": null
+    },
+    {
+      "name": "HTTP empty upload rejected",
+      "passed": true,
+      "status": "PASS",
+      "kind": "required",
+      "mode": "http-mock",
+      "expected": 400,
+      "actual": 400,
+      "detail": null
+    },
+    {
+      "name": "HTTP missing API key rejected",
+      "passed": true,
+      "status": "PASS",
+      "kind": "required",
+      "mode": "http-mock",
+      "expected": 400,
+      "actual": 400,
+      "detail": null
+    },
+    {
+      "name": "HTTP unsupported extension rejected",
+      "passed": true,
+      "status": "PASS",
+      "kind": "required",
+      "mode": "http-mock",
+      "expected": 400,
+      "actual": 400,
+      "detail": null
+    },
+    {
+      "name": "all mock and both-only outputs: actual web/extension loaders accept",
+      "passed": true,
+      "status": "PASS",
+      "kind": "required",
+      "mode": "integration",
+      "expected": true,
+      "actual": true,
+      "detail": null
+    },
+    {
+      "name": "source files unchanged",
+      "passed": true,
+      "status": "PASS",
+      "kind": "required",
+      "mode": "offline",
+      "expected": {
+        "README.md": "873d7c0b5387b24e495dfa254398a9b45709c7d78ffee2b2b6645d76289c9ca4",
+        "requirements.txt": "6f9c461164087cb094fd97d959dbe108bd0cddcf4a29aaa9d814183760a772c7",
+        "samples/sample.ass": "2d8a7164d64767d2bb213005a20c846e6fa42230f8cae45332042c3a2a904faf",
+        "samples/sample.srt": "f7ac446c668c2c6b9272da71d6fa6be99ee9d75e6a2d532603a14f537f535117",
+        "samples/sample.vtt": "54c79c9e1be2cdf3735e4838227a1fabed094280d8682bdaa781860e0bcf54e3",
+        "samples/sample_cp949.smi": "0d89285e541b147a9ae2da990627c026978655d54f086f22c8d4c552129b686c",
+        "start_web.bat": "6af52fe062b926ccaa1ed26ccb3cf0501ab3633542b0b93eb3b58eb862e47440",
+        "start_web.command": "3810e229932a5733bc7ed9348322c3aad0afb18c3fff23ad037174e65da01f34",
+        "subfilter/__init__.py": "d3fa47325f07d1fb0e82cc4acb1d36f2a7ff607e6bf8019093c9490bf2211926",
+        "subfilter/__main__.py": "935a1c1166b0c1ea35a82256345000bf2c73ded718d77773bc27a71ecce28f7d",
+        "subfilter/analyzers.py": "69f0e1a7eac3987208921e548422ee1644b972c7989e95020a362105ba49779b",
+        "subfilter/chunker.py": "24bd284377c032d5492b59230754c9294af82a939af7a0a1e317f2a92a6442e9",
+        "subfilter/cli.py": "6dc381f3191f19ccd877d9f18ab3be752c615dafd3a95b73b3a51dba671426a5",
+        "subfilter/errors.py": "555eb644ae708cef5e68e1131a51e2d74ed56ec2a70bfe927039e10f278247ad",
+        "subfilter/exporter.py": "a7c1410e059877c17de7b7361508bd7ce94de320cc21389f9288a4115067f405",
+        "subfilter/models.py": "7ead661ce8a2926e56b071eeea170dc6bdaee62cc7ec0ed6e900411439404b73",
+        "subfilter/parsers.py": "e06c99824960b732dffdaee0dd29882a0d71809964906f5b2a80ce07e8b57e0d",
+        "subfilter/pipeline.py": "6a077c2f7f4abd10ee94f0716429543e93b6dd3b08b129b7c567387bf799385e",
+        "subfilter/postprocess.py": "a6e66dbfdb7df5e8441910ed921dc478fb2f559d9b4fe96036aa4d3bcc9cf617",
+        "subfilter/prompts.py": "790f5988319e0325cfddb30c68834434840936d63f9eb83640b0c978032a4f0a",
+        "subfilter/static/index.html": "1a667b60dd5721c5de37bf5e41d2c8efc3745240be27f039253a7041ec1af549",
+        "subfilter/web.py": "56c27829714162a54d009e2b8bf36e66e0cc8d9b967b08aa80124ae0d7fc6ee6"
+      },
+      "actual": {
+        "README.md": "873d7c0b5387b24e495dfa254398a9b45709c7d78ffee2b2b6645d76289c9ca4",
+        "requirements.txt": "6f9c461164087cb094fd97d959dbe108bd0cddcf4a29aaa9d814183760a772c7",
+        "samples/sample.ass": "2d8a7164d64767d2bb213005a20c846e6fa42230f8cae45332042c3a2a904faf",
+        "samples/sample.srt": "f7ac446c668c2c6b9272da71d6fa6be99ee9d75e6a2d532603a14f537f535117",
+        "samples/sample.vtt": "54c79c9e1be2cdf3735e4838227a1fabed094280d8682bdaa781860e0bcf54e3",
+        "samples/sample_cp949.smi": "0d89285e541b147a9ae2da990627c026978655d54f086f22c8d4c552129b686c",
+        "start_web.bat": "6af52fe062b926ccaa1ed26ccb3cf0501ab3633542b0b93eb3b58eb862e47440",
+        "start_web.command": "3810e229932a5733bc7ed9348322c3aad0afb18c3fff23ad037174e65da01f34",
+        "subfilter/__init__.py": "d3fa47325f07d1fb0e82cc4acb1d36f2a7ff607e6bf8019093c9490bf2211926",
+        "subfilter/__main__.py": "935a1c1166b0c1ea35a82256345000bf2c73ded718d77773bc27a71ecce28f7d",
+        "subfilter/analyzers.py": "69f0e1a7eac3987208921e548422ee1644b972c7989e95020a362105ba49779b",
+        "subfilter/chunker.py": "24bd284377c032d5492b59230754c9294af82a939af7a0a1e317f2a92a6442e9",
+        "subfilter/cli.py": "6dc381f3191f19ccd877d9f18ab3be752c615dafd3a95b73b3a51dba671426a5",
+        "subfilter/errors.py": "555eb644ae708cef5e68e1131a51e2d74ed56ec2a70bfe927039e10f278247ad",
+        "subfilter/exporter.py": "a7c1410e059877c17de7b7361508bd7ce94de320cc21389f9288a4115067f405",
+        "subfilter/models.py": "7ead661ce8a2926e56b071eeea170dc6bdaee62cc7ec0ed6e900411439404b73",
+        "subfilter/parsers.py": "e06c99824960b732dffdaee0dd29882a0d71809964906f5b2a80ce07e8b57e0d",
+        "subfilter/pipeline.py": "6a077c2f7f4abd10ee94f0716429543e93b6dd3b08b129b7c567387bf799385e",
+        "subfilter/postprocess.py": "a6e66dbfdb7df5e8441910ed921dc478fb2f559d9b4fe96036aa4d3bcc9cf617",
+        "subfilter/prompts.py": "790f5988319e0325cfddb30c68834434840936d63f9eb83640b0c978032a4f0a",
+        "subfilter/static/index.html": "1a667b60dd5721c5de37bf5e41d2c8efc3745240be27f039253a7041ec1af549",
+        "subfilter/web.py": "56c27829714162a54d009e2b8bf36e66e0cc8d9b967b08aa80124ae0d7fc6ee6"
+      },
+      "detail": null
+    }
+  ]
+}

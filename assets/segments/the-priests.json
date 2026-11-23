@@ -1,0 +1,13 @@
+{
+  "title": "검은 사제들",
+  "segments": [
+    {
+      "id": "Priests-001",
+      "start": 5.2,
+      "end": 13.1,
+      "type": "blur",
+      "reason": "피를 토하는 장면",
+      "summary": "인물이 피를 토합니다."
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "meta": {
+    "format": "ass",
+    "encoding_detected": "utf-8-sig",
+    "cue_count": 2
+  },
+  "cues": [
+    {
+      "id": 1,
+      "start_ms": 5000,
+      "end_ms": 7500,
+      "text": "여기가 그 산장이야?"
+    },
+    {
+      "id": 2,
+      "start_ms": 252500,
+      "end_ms": 253500,
+      "text": "[총성] / 칼 내려놔, 진짜로!"
+    }
+  ]
+}

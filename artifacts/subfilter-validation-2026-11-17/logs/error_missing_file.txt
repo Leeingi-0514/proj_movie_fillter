@@ -1,0 +1,7 @@
+["/Library/Developer/CommandLineTools/usr/bin/python3", "-m", "subfilter", "/Users/lee/Documents/ChatGPT/movie_guard 2/artifacts/subfilter-validation-2026-11-17/fixtures/absent.srt", "-o", "/Users/lee/Documents/ChatGPT/movie_guard 2/artifacts/subfilter-validation-2026-11-17/outputs/error_missing_file.json", "--cache-dir", "", "--mock"]
+exit=1
+STDOUT
+
+STDERR
+
+오류: 파일을 찾을 수 없습니다: /Users/lee/Documents/ChatGPT/movie_guard 2/artifacts/subfilter-validation-2026-11-17/fixtures/absent.srt  (자세한 내용은 -v)

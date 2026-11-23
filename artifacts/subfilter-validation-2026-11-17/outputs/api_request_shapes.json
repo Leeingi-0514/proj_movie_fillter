@@ -1,0 +1,146 @@
+[
+  {
+    "model": "fixture-no-network",
+    "max_tokens": 16000,
+    "messages": [
+      {
+        "role": "user",
+        "content": "다음은 영화 자막입니다:\n\n소리 분기 검증용 대사\n화면 분기 검증용 대사\n동시 분기 검증용 대사\n중립적인 마지막 대사"
+      }
+    ],
+    "output_config": {
+      "format": {
+        "type": "json_schema",
+        "schema": {
+          "type": "object",
+          "properties": {
+            "genre_guess": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            },
+            "synopsis": {
+              "type": "string"
+            },
+            "notes": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "genre_guess",
+            "synopsis",
+            "notes"
+          ],
+          "additionalProperties": false
+        }
+      },
+      "effort": "medium"
+    }
+  },
+  {
+    "model": "fixture-no-network",
+    "max_tokens": 16000,
+    "messages": [
+      {
+        "role": "user",
+        "content": "[영화 맥락]\n장르 추정: fixture\n줄거리: 검증 데이터\n참고: \n\n[분석 대상 - cue #1 ~ #4]\n[#1] 소리 분기 검증용 대사\n[#2] 화면 분기 검증용 대사\n[#3] 동시 분기 검증용 대사\n[#4] 중립적인 마지막 대사"
+      }
+    ],
+    "output_config": {
+      "format": {
+        "type": "json_schema",
+        "schema": {
+          "type": "object",
+          "properties": {
+            "findings": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "cue_start": {
+                    "type": "integer"
+                  },
+                  "cue_end": {
+                    "type": "integer"
+                  },
+                  "category": {
+                    "type": "string",
+                    "enum": [
+                      "horror",
+                      "sexual",
+                      "violence"
+                    ]
+                  },
+                  "subcategory": {
+                    "type": "string",
+                    "enum": [
+                      "blood_gore",
+                      "disturbing",
+                      "gore_description",
+                      "jump_scare",
+                      "killing_death",
+                      "nudity_implied",
+                      "other",
+                      "physical_violence",
+                      "sexual_activity_implied",
+                      "sexual_dialogue",
+                      "sexual_violence",
+                      "supernatural",
+                      "tension_threat",
+                      "threat_of_violence",
+                      "torture",
+                      "weapon_use"
+                    ]
+                  },
+                  "severity": {
+                    "type": "integer",
+                    "enum": [
+                      1,
+                      2,
+                      3
+                    ]
+                  },
+                  "confidence": {
+                    "type": "number"
+                  },
+                  "reason": {
+                    "type": "string"
+                  },
+                  "media": {
+                    "type": "string",
+                    "enum": [
+                      "audio",
+                      "video",
+                      "both"
+                    ]
+                  },
+                  "summary": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "cue_start",
+                  "cue_end",
+                  "category",
+                  "subcategory",
+                  "severity",
+                  "confidence",
+                  "reason",
+                  "media",
+                  "summary"
+                ],
+                "additionalProperties": false
+              }
+            }
+          },
+          "required": [
+            "findings"
+          ],
+          "additionalProperties": false
+        }
+      },
+      "effort": "medium"
+    }
+  }
+]

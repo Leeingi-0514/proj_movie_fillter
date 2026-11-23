@@ -1,0 +1,29 @@
+{
+  "title": "api_response_replay",
+  "segments": [
+    {
+      "id": "seg-001",
+      "start": 8,
+      "end": 13,
+      "type": "audio",
+      "reason": "선정성: 결정적 검증용 판단 근거",
+      "summary": "결정적 검증용 장면 요약"
+    },
+    {
+      "id": "seg-002",
+      "start": 38,
+      "end": 43,
+      "type": "video",
+      "reason": "공포: 결정적 검증용 판단 근거",
+      "summary": "결정적 검증용 장면 요약"
+    },
+    {
+      "id": "seg-003",
+      "start": 68,
+      "end": 73,
+      "type": "both",
+      "reason": "폭력성: 결정적 검증용 판단 근거",
+      "summary": "결정적 검증용 장면 요약"
+    }
+  ]
+}

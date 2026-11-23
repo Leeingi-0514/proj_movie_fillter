@@ -1,0 +1,6 @@
+["/Library/Developer/CommandLineTools/usr/bin/python3", "-m", "subfilter", "/Users/lee/Documents/ChatGPT/movie_guard 2/artifacts/subfilter-validation-2026-11-17/fixtures/mixed_scenes.srt", "-o", "/Users/lee/Documents/ChatGPT/movie_guard 2/artifacts/subfilter-validation-2026-11-17/outputs/missing_api_key.json", "--cache-dir", ""]
+exit=1
+STDOUT
+
+STDERR
+오류: API 키가 설정되지 않았습니다. 환경 변수 ANTHROPIC_API_KEY에 키를 넣거나, API 없이 시험하려면 --mock을 붙이세요.

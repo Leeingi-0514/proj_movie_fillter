@@ -1,0 +1,14 @@
+["/Library/Developer/CommandLineTools/usr/bin/python3", "-m", "subfilter", "/Users/lee/Documents/ChatGPT/movie_guard 2/artifacts/subfilter-validation-2026-11-17/fixtures/long_205_cues.srt", "-o", "/Users/lee/Documents/ChatGPT/movie_guard 2/artifacts/subfilter-validation-2026-11-17/outputs/long_205_cues.json", "--cache-dir", "", "--mock"]
+exit=0
+STDOUT
+완료: /Users/lee/Documents/ChatGPT/movie_guard 2/artifacts/subfilter-validation-2026-11-17/outputs/long_205_cues.json  (구간 2개)
+  공포   장면   0개, 최고 심각도 0
+  선정성  장면   0개, 최고 심각도 0
+  폭력성  장면   2개, 최고 심각도 3
+
+STDERR
+
+분석 중... 0/3 청크
+분석 중... 1/3 청크
+분석 중... 2/3 청크
+분석 중... 3/3 청크

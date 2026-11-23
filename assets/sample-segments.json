@@ -1,0 +1,13 @@
+{
+  "title": "MovieGuard 제출용 데모",
+  "segments": [
+    {
+      "id": "demo-001",
+      "start": 16,
+      "end": 22,
+      "type": "both",
+      "reason": "제출용 필터 시연 구간",
+      "summary": "내용 요약"
+    }
+  ]
+}

@@ -1,0 +1,120 @@
+{
+  "id": "73619a651e01",
+  "status": "done",
+  "file_name": "한글 영화.srt",
+  "done": 1,
+  "total": 1,
+  "error": null,
+  "report": {
+    "schema_version": "1.0",
+    "source": {
+      "file_name": "한글 영화.srt",
+      "format": "srt",
+      "encoding_detected": "utf-8-sig",
+      "cue_count": 5,
+      "sha256": "7f7e6f04f66265f01d9da3694fe50468871b7a7429ebe0e5975bbc45bad7729d",
+      "duration_ms": 122000
+    },
+    "analysis": {
+      "model": "mock-keyword",
+      "effort": null,
+      "prompt_version": "2026-11-17.1",
+      "settings": {
+        "chunk_size": 100,
+        "context_cues": 10,
+        "use_global_context": true,
+        "merge_gap_ms": 3000,
+        "pre_roll_ms": 2000,
+        "post_roll_ms": 1000,
+        "min_confidence": 0.3,
+        "review_threshold": 0.6,
+        "gap_report_ms": 60000,
+        "duration_ms": null
+      },
+      "created_at": "2026-11-17T16:40:33+09:00",
+      "complete": true,
+      "failed_chunks": []
+    },
+    "context": {
+      "genre_guess": [
+        "unknown"
+      ],
+      "synopsis": "(mock 모드: 맥락 요약 생략)",
+      "notes": ""
+    },
+    "summary": {
+      "horror": {
+        "max_severity": 2,
+        "segment_count": 1,
+        "total_ms": 5500
+      },
+      "sexual": {
+        "max_severity": 3,
+        "segment_count": 1,
+        "total_ms": 6800
+      },
+      "violence": {
+        "max_severity": 3,
+        "segment_count": 1,
+        "total_ms": 5002
+      }
+    },
+    "segments": [
+      {
+        "id": "seg_0001",
+        "category": "horror",
+        "subcategory": "tension_threat",
+        "severity": 2,
+        "confidence": 0.5,
+        "start_ms": 8250,
+        "end_ms": 13750,
+        "start": "00:00:08.250",
+        "end": "00:00:13.750",
+        "cue_ids": [
+          2
+        ],
+        "reason": "키워드 감지: 비명",
+        "summary": "(mock 모드: 장면 요약 생략)",
+        "media": "both",
+        "needs_review": true
+      },
+      {
+        "id": "seg_0002",
+        "category": "sexual",
+        "subcategory": "sexual_activity_implied",
+        "severity": 3,
+        "confidence": 0.5,
+        "start_ms": 38100,
+        "end_ms": 44900,
+        "start": "00:00:38.100",
+        "end": "00:00:44.900",
+        "cue_ids": [
+          3
+        ],
+        "reason": "키워드 감지: 침대, 벗어, 옷을",
+        "summary": "(mock 모드: 장면 요약 생략)",
+        "media": "both",
+        "needs_review": true
+      },
+      {
+        "id": "seg_0003",
+        "category": "violence",
+        "subcategory": "physical_violence",
+        "severity": 3,
+        "confidence": 0.5,
+        "start_ms": 78999,
+        "end_ms": 84001,
+        "start": "00:01:18.999",
+        "end": "00:01:24.001",
+        "cue_ids": [
+          4
+        ],
+        "reason": "키워드 감지: 총성, 총, 칼",
+        "summary": "(mock 모드: 장면 요약 생략)",
+        "media": "both",
+        "needs_review": true
+      }
+    ],
+    "unanalyzed_gaps": []
+  }
+}

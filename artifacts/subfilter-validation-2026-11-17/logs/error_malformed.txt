@@ -1,0 +1,7 @@
+["/Library/Developer/CommandLineTools/usr/bin/python3", "-m", "subfilter", "/Users/lee/Documents/ChatGPT/movie_guard 2/artifacts/subfilter-validation-2026-11-17/fixtures/malformed.srt", "-o", "/Users/lee/Documents/ChatGPT/movie_guard 2/artifacts/subfilter-validation-2026-11-17/outputs/error_malformed.json", "--cache-dir", "", "--mock"]
+exit=1
+STDOUT
+
+STDERR
+
+오류: 자막에서 대사를 하나도 읽지 못했습니다. 파일 형식을 확인하세요.  (자세한 내용은 -v)

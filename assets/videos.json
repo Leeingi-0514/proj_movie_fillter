@@ -1,0 +1,104 @@
+{
+  "videos": [
+    {
+      "id": "검은 사제들",
+      "theme": "horror",
+      "title": "검은 사제들",
+      "description": "검은 사제들 영화 시청",
+      "src": "assets/horror/the-priests.mp4",
+      "segments": "assets/segments/the-priests.json",
+      "demo": false,
+      "poster": "assets/posters/the-priests_poster.jpeg",
+      "contentFrame": {
+        "x": 0,
+        "y": 90,
+        "width": 1280,
+        "height": 540
+      }
+    },
+    {
+      "id": "gonjiam",
+      "theme": "horror",
+      "title": "곤지암",
+      "description": "공포 테마 · 필터 구간 2개",
+      "src": "assets/horror/gonjiam.mp4",
+      "segments": "assets/segments/gonjiam.json",
+      "demo": false,
+      "poster": "assets/posters/gonjiam_poster.jpeg"
+    },
+    {
+      "id": "quiet-place",
+      "theme": "horror",
+      "title": "Quiet Place",
+      "description": "콰이어트 플레이스",
+      "src": "assets/horror/quiet-place.mp4",
+      "segments": "assets/segments/quiet-place.json",
+      "demo": false,
+      "poster": "assets/posters/quiet place_poster.jpeg",
+      "contentFrame": {
+        "x": 0,
+        "y": 734,
+        "width": 1080,
+        "height": 452
+      }
+    },
+    {
+      "id": "dp",
+      "theme": "violence",
+      "title": "DP",
+      "description": "폭력성 테마 · 필터 구간 3개",
+      "src": "assets/violence/dp.mp4",
+      "segments": "assets/segments/dp.json",
+      "demo": false,
+      "poster": "assets/posters/dp_poster.jpeg",
+      "contentFrame": {
+        "x": 0,
+        "y": 690,
+        "width": 1080,
+        "height": 540
+      }
+    },
+    {
+      "id": "teach-you",
+      "theme": "violence",
+      "title": "Teach you a lesson",
+      "description": "폭력성 테마 · 필터 구간 1개",
+      "src": "assets/violence/teach-you.mp4",
+      "segments": "assets/segments/teach-you.json",
+      "poster": "assets/posters/teach-you_poster.jpeg",
+      "demo": false,
+      "contentFrame": {
+        "x": 54,
+        "y": 90,
+        "width": 1810,
+        "height": 830
+      }
+    },
+    {
+      "id": "bridgerton",
+      "theme": "sexual",
+      "title": "Bridgerton",
+      "description": "선정성 테마 · 필터 구간 1개",
+      "src": "assets/sexual/bridgerton.mp4",
+      "segments": "assets/segments/bridgerton.json",
+      "demo": false,
+      "poster": "assets/posters/bridgertion_poster.jpeg",
+      "contentFrame": {
+        "x": 0,
+        "y": 40,
+        "width": 1280,
+        "height": 640
+      }
+    },
+    {
+      "id": "parasite",
+      "theme": "sexual",
+      "title": "기생충",
+      "description": "선정성 테마 · 필터 구간 1개",
+      "src": "assets/sexual/parasite-fit.mp4",
+      "segments": "assets/segments/parasite.json",
+      "demo": false,
+      "poster": "assets/posters/parasite_poster.jpeg"
+    }
+  ]
+}

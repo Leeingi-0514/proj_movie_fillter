@@ -1,0 +1,13 @@
+{
+  "title": "sample",
+  "segments": [
+    {
+      "id": "seg-001",
+      "start": 3610,
+      "end": 3614,
+      "type": "both",
+      "reason": "폭력성: 키워드 감지: 총성, 총",
+      "summary": "(mock 모드: 장면 요약 생략)"
+    }
+  ]
+}

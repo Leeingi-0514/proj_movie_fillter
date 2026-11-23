@@ -1,0 +1,21 @@
+{
+  "title": "곤지암",
+  "segments": [
+    {
+      "id": "gonji-001",
+      "start": 0,
+      "end": 2.4,
+      "type": "blur",
+      "reason": "귀신의 실루엣",
+      "summary": "귀신의 실루엣이 나타납니다."
+    },
+    {
+      "id": "gonji-002",
+      "start": 6,
+      "end": 10.5,
+      "type": "blur",
+      "reason": "귀신 등장",
+      "summary": "귀신이 나타납니다."
+    }
+  ]
+}

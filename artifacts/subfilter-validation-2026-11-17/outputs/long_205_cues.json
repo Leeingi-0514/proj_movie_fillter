@@ -1,0 +1,21 @@
+{
+  "title": "long_205_cues",
+  "segments": [
+    {
+      "id": "seg-001",
+      "start": 488,
+      "end": 503,
+      "type": "both",
+      "reason": "폭력성: 키워드 감지: 총성, 총",
+      "summary": "(mock 모드: 장면 요약 생략)"
+    },
+    {
+      "id": "seg-002",
+      "start": 993,
+      "end": 1003,
+      "type": "both",
+      "reason": "폭력성: 키워드 감지: 총성, 총",
+      "summary": "(mock 모드: 장면 요약 생략)"
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="ko"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>MovieGuard for Netflix</title><link rel="stylesheet" href="popup.css"></head>
+<body>
+<header><div><h1>MovieGuard</h1><p>넷플릭스 구간 필터</p></div><button id="toggle" type="button" aria-pressed="true">필터 켜짐</button></header>
+<main>
+  <div id="status" role="status">넷플릭스 영상을 확인하는 중…</div>
+  <div class="actions"><button id="reload" type="button">현재 작품 불러오기</button><button id="unmute" type="button">지금 소리 켜기</button></div>
+  <p id="message" role="status" aria-live="polite"></p>
+  <section><h2>1. 구간 준비</h2>
+    <label>기존 클립 구간<select id="library"><option value="">선택해 주세요</option></select></label>
+    <p class="help">기존 클립 7개의 시간은 본편 시간이 아닙니다. 아래에서 클립 시작 위치를 맞춰 주세요.</p>
+    <div class="actions"><label class="file-button">JSON 불러오기<input id="jsonFile" type="file" accept=".json,application/json"></label><button id="exportJson" type="button">JSON 내보내기</button></div>
+    <label>작품·에피소드 이름<input id="title" maxlength="150" placeholder="예: 기생충 / DP 시즌 1, 1화"></label>
+  </section>
+  <section><h2>2. 시간 맞추기</h2>
+    <label>시간 보정 (초)<input id="offset" type="number" step="0.1" value="0"></label>
+    <p class="help">실제 적용 시간 = JSON 시간 + 보정 값. 본편 기준 JSON이면 0을 사용하세요. 예: 클립 시작이 본편 20분이면 1200.</p>
+    <button id="align" type="button">현재 재생 위치를 클립 시작(0초)으로</button>
+    <p id="preview" class="help"></p>
+  </section>
+  <section><h2>3. 적용 방식</h2>
+    <div id="modes" class="modes" role="group" aria-label="필터 방식">
+      <button type="button" data-mode="segments" aria-pressed="true">JSON대로</button>
+      <button type="button" data-mode="blur" aria-pressed="false">블러</button>
+      <button type="button" data-mode="mute" aria-pressed="false">음소거</button>
+      <button type="button" data-mode="both" aria-pressed="false">블러 + 음소거</button>
+      <button type="button" data-mode="skip" aria-pressed="false">스킵</button>
+    </div>
+    <label>화면 처리<select id="mask"><option value="blur">블러</option><option value="cover">화면 완전히 가리기</option></select></label>
+    <p class="help">스킵은 검은 화면에서 요약을 약 3초간 보여준 뒤 구간 끝으로 이동합니다.</p>
+    <p class="help">블러가 보이지 않으면 ‘화면 완전히 가리기’를 선택하세요. 필터를 끄면 모든 구간 처리가 중지됩니다.</p>
+    <button id="apply" class="primary" type="button" disabled>현재 작품에 저장·적용</button>
+    <button id="disconnect" class="danger" type="button" disabled>이 작품 연결 해제</button>
+    <p class="help">본편 재생 중에 저장하세요. 이 주소의 작품·에피소드에만 연결됩니다. 다른 회차는 따로 등록합니다.</p>
+  </section>
+  <section><h2>필터 구간 <span id="count">0</span></h2><ul id="segmentList"></ul><p id="empty" class="help">JSON을 불러오거나 구간을 추가해 주세요.</p>
+    <details><summary>구간 직접 추가</summary>
+      <div class="row"><label>시작 (초 또는 분:초)<input id="start" placeholder="8.1"></label><label>종료<input id="end" placeholder="10.3"></label></div>
+      <label>방식<select id="type"><option value="blur">블러</option><option value="mute">음소거</option><option value="both">블러 + 음소거</option><option value="skip">스킵</option></select></label>
+      <label>설명<input id="reason" maxlength="300" placeholder="선택 사항"></label><label>스킵할 장면의 내용 요약<textarea id="summary" rows="2" placeholder="검은 화면에 표시할 짧은 요약"></textarea></label><button id="add" type="button">구간 추가</button>
+    </details>
+  </section>
+</main><footer>구간 편집 후 ‘저장·적용’을 눌러 주세요. 설정은 이 브라우저에만 저장됩니다. 자동 장면 분석은 수행하지 않습니다.</footer>
+<script src="filter-engine.js"></script><script src="popup.js"></script></body></html>

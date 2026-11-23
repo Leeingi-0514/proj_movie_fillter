@@ -1,0 +1,112 @@
+{
+  "schema_version": "1.0",
+  "source": {
+    "file_name": "media_modes.srt",
+    "format": "srt",
+    "encoding_detected": "utf-8-sig",
+    "cue_count": 4,
+    "sha256": "c127c269872e42d6cc86037cfe6700bcfdc9f5a501c6d18fda02eb8c4fda9065",
+    "duration_ms": 102000
+  },
+  "analysis": {
+    "model": "fixture-no-network",
+    "effort": "medium",
+    "prompt_version": "2026-11-17.1",
+    "settings": {
+      "chunk_size": 100,
+      "context_cues": 10,
+      "use_global_context": true,
+      "merge_gap_ms": 3000,
+      "pre_roll_ms": 2000,
+      "post_roll_ms": 1000,
+      "min_confidence": 0.3,
+      "review_threshold": 0.6,
+      "gap_report_ms": 60000,
+      "duration_ms": null
+    },
+    "created_at": "2026-11-17T16:40:33+09:00",
+    "complete": true,
+    "failed_chunks": []
+  },
+  "context": {
+    "genre_guess": [
+      "fixture"
+    ],
+    "synopsis": "검증 데이터",
+    "notes": ""
+  },
+  "summary": {
+    "horror": {
+      "max_severity": 2,
+      "segment_count": 1,
+      "total_ms": 5000
+    },
+    "sexual": {
+      "max_severity": 2,
+      "segment_count": 1,
+      "total_ms": 5000
+    },
+    "violence": {
+      "max_severity": 2,
+      "segment_count": 1,
+      "total_ms": 5000
+    }
+  },
+  "segments": [
+    {
+      "id": "seg_0001",
+      "category": "sexual",
+      "subcategory": "other",
+      "severity": 2,
+      "confidence": 0.9,
+      "start_ms": 8000,
+      "end_ms": 13000,
+      "start": "00:00:08.000",
+      "end": "00:00:13.000",
+      "cue_ids": [
+        1
+      ],
+      "reason": "결정적 검증용 판단 근거",
+      "summary": "결정적 검증용 장면 요약",
+      "media": "audio",
+      "needs_review": false
+    },
+    {
+      "id": "seg_0002",
+      "category": "horror",
+      "subcategory": "other",
+      "severity": 2,
+      "confidence": 0.9,
+      "start_ms": 38000,
+      "end_ms": 43000,
+      "start": "00:00:38.000",
+      "end": "00:00:43.000",
+      "cue_ids": [
+        2
+      ],
+      "reason": "결정적 검증용 판단 근거",
+      "summary": "결정적 검증용 장면 요약",
+      "media": "video",
+      "needs_review": false
+    },
+    {
+      "id": "seg_0003",
+      "category": "violence",
+      "subcategory": "other",
+      "severity": 2,
+      "confidence": 0.9,
+      "start_ms": 68000,
+      "end_ms": 73000,
+      "start": "00:01:08.000",
+      "end": "00:01:13.000",
+      "cue_ids": [
+        3
+      ],
+      "reason": "결정적 검증용 판단 근거",
+      "summary": "결정적 검증용 장면 요약",
+      "media": "both",
+      "needs_review": false
+    }
+  ],
+  "unanalyzed_gaps": []
+}

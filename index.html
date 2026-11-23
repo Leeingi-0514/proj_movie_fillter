@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="공포·폭력성·선정성 테마의 영상을 고르고 불편한 구간에 보호 필터를 적용하는 무비가드">
+  <title>무비가드 — 불편한 장면만 가려요</title>
+  <link rel="stylesheet" href="style.css?v=theme-image-fit-2">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="index.html" aria-label="무비가드 홈"><span class="brand-icon" aria-hidden="true">✓</span><span>무비가드</span></a>
+    <nav aria-label="주요 메뉴"><a class="active" href="#home">홈</a><a href="#popular">테마 찾기</a><a href="#how">이용 방법</a></nav>
+    <a class="search-button" href="#popular" aria-label="영상 테마 찾기">⌕</a>
+  </header>
+  <main>
+    <section class="hero" id="home"><div class="hero-shade"></div><div class="hero-content">
+      <p class="lime-kicker">✦&nbsp; 나에게 맞춘 안전한 영화 감상</p><h1>OTT는 그대로,<br>불편한 장면만 가려요.</h1>
+      <p class="hero-copy">테마별 영상을 고르고 나에게 맞는 필터를 선택하세요.<br>미리 등록된 불편한 구간에만 보호 필터를 적용해요.</p>
+      <div class="hero-actions"><a class="button button-primary" href="#popular">테마 선택하기 <span>→</span></a><a class="button button-ghost" href="#how">어떻게 작동하나요?</a></div>
+      <p class="privacy">♙&nbsp; 필터는 영상을 재생하는 브라우저 안에서 작동해요</p>
+    </div></section>
+    <section class="light-section how-section" id="how">
+      <div class="section-intro"><div><p class="section-kicker">HOW IT WORKS</p><h2>영상 위에 안전 레이어를 더해요</h2></div><p>테마와 영상을 고른 뒤,<br>편안한 감상 방식을 선택하세요.</p></div>
+      <div class="steps">
+        <article><div class="step-top"><span class="step-icon">⌕</span><b>01</b></div><h3>테마를 골라요</h3><p>공포·폭력성·선정성 중 원하는 테마를 선택하세요.</p></article>
+        <article><div class="step-top"><span class="step-icon">▱</span><b>02</b></div><h3>영상을 찾아요</h3><p>선택한 테마에 등록된 영상 목록을 살펴보세요.</p></article>
+        <article><div class="step-top"><span class="step-icon">⚙</span><b>03</b></div><h3>필터를 정해요</h3><p>블러·음소거·블러 + 음소거·스킵 중 하나를 고르세요.</p></article>
+        <article><div class="step-top"><span class="step-icon">⌗</span><b>04</b></div><h3>불편한 장면을 필터링해요</h3><p>재생 시점에 맞춰 블러·음소거·건너뛰기를 적용해요.</p></article>
+      </div>
+    </section>
+    <section class="light-section popular-section" id="popular">
+      <div class="section-title-row"><div><p class="section-kicker">CHOOSE YOUR THEME</p><h2>어떤 장면이 불편한가요?</h2></div><p class="section-note">테마를 선택해 영상을 만나보세요.</p></div>
+      <div class="movie-grid">
+        <button class="movie-card theme-card" type="button" data-theme="horror" aria-label="공포 테마 영상 목록 보기"><span class="movie-image"><img class="theme-icon" src="assets/themes/horror.png" alt="" loading="lazy" decoding="async"></span><span class="card-title">공포</span><span class="card-description">갑작스러운 놀람과 긴장되는 장면</span></button>
+        <button class="movie-card theme-card" type="button" data-theme="violence" aria-label="폭력성 테마 영상 목록 보기"><span class="movie-image"><img class="theme-icon" src="assets/themes/violence.png" alt="" loading="lazy" decoding="async"></span><span class="card-title">폭력성</span><span class="card-description">거친 액션과 폭력적인 장면</span></button>
+        <button class="movie-card theme-card" type="button" data-theme="sexual" aria-label="선정성 테마 영상 목록 보기"><span class="movie-image"><img class="theme-icon" src="assets/themes/sexual.png" alt="" loading="lazy" decoding="async"></span><span class="card-title">선정성</span><span class="card-description">노출과 성적인 표현이 있는 장면</span></button>
+      </div>
+    </section>
+    <section class="future"><p class="section-kicker">NEXT STEP</p><div><h2>더 똑똑한 보호를 향해</h2><p>현재는 영상별로 미리 등록한 시간 구간에 필터를 적용하는 웹 프로토타입입니다. 먼저 체험용 영상으로 필터를 확인해 보세요. 민감 장면을 자동으로 찾아주는 기능은 추후 추가할 예정입니다.</p></div></section>
+  </main>
+  <footer><a class="brand" href="#home"><span class="brand-icon">✓</span><span>무비가드</span></a><p>로컬 영상 필터링 웹 프로토타입 · 2026</p></footer><script src="script.js"></script>
+</body></html>

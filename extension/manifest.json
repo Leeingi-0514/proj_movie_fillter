@@ -1,0 +1,29 @@
+{
+  "manifest_version": 3,
+  "name": "MovieGuard for Netflix",
+  "version": "2.2.0",
+  "description": "작품별 JSON 구간에 맞춰 넷플릭스 영상에 블러·음소거·스킵을 적용합니다.",
+  "permissions": [
+    "storage",
+    "activeTab"
+  ],
+  "action": {
+    "default_title": "MovieGuard",
+    "default_popup": "popup.html"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "https://*.netflix.com/*",
+        "https://netflix.com/*"
+      ],
+      "js": [
+        "filter-engine.js",
+        "subtitles.js",
+        "skip-summary.js",
+        "content.js"
+      ],
+      "run_at": "document_idle"
+    }
+  ]
+}

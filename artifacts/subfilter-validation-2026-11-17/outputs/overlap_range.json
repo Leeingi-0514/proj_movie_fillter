@@ -1,0 +1,13 @@
+{
+  "title": "overlap_range",
+  "segments": [
+    {
+      "id": "seg-001",
+      "start": 10,
+      "end": 16,
+      "type": "both",
+      "reason": "폭력성: 결정적 검증용 판단 근거",
+      "summary": "결정적 검증용 장면 요약"
+    }
+  ]
+}

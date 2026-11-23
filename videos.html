@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="공포·폭력성·선정성 테마별 영상을 살펴보고 나에게 맞는 필터로 감상하세요.">
+  <title>테마별 영상 — 무비가드</title>
+  <link rel="stylesheet" href="style.css?v=video-posters-1">
+</head>
+<body class="catalog-body">
+  <header class="site-header catalog-header">
+    <a class="brand" href="index.html" aria-label="무비가드 홈"><span class="brand-icon" aria-hidden="true">✓</span><span>무비가드</span></a>
+    <nav aria-label="주요 메뉴"><a href="index.html">홈</a><a class="active" href="index.html#popular">테마 찾기</a><a href="index.html#how">이용 방법</a></nav>
+    <a class="catalog-home" href="index.html#popular">테마 선택 ↗</a>
+  </header>
+  <main>
+    <section class="catalog-hero">
+      <div class="catalog-hero-inner">
+        <a class="back-link" href="index.html#popular">← 모든 테마</a>
+        <p class="lime-kicker" id="themeEnglish">MOVIEGUARD LIBRARY</p>
+        <h1 id="themeTitle">테마별 영상</h1>
+        <p id="themeDescription">원하는 테마를 선택해 주세요.</p>
+        <nav class="theme-tabs" aria-label="영상 테마">
+          <a href="videos.html?theme=horror" data-theme="horror">공포</a>
+          <a href="videos.html?theme=violence" data-theme="violence">폭력성</a>
+          <a href="videos.html?theme=sexual" data-theme="sexual">선정성</a>
+        </nav>
+      </div>
+    </section>
+    <section class="light-section catalog-content" aria-labelledby="listTitle" aria-busy="true" id="catalogContent">
+      <div class="section-title-row"><div><p class="section-kicker">WATCH WITH MOVIEGUARD</p><h2 id="listTitle">등록된 영상</h2></div><span class="video-count" id="videoCount"></span></div>
+      <p class="catalog-message" id="listMessage" role="status">영상 목록을 불러오는 중이에요.</p>
+      <div class="video-grid" id="videoList"></div>
+      <p class="demo-note" id="demoNote" hidden>현재는 테마별로 같은 체험용 영상을 제공해요. 테마마다 필터 구간이 다르게 등록되어 있어요.</p>
+      <noscript><p>영상 목록을 보려면 브라우저의 JavaScript를 켜 주세요.</p></noscript>
+    </section>
+  </main>
+  <footer><a class="brand" href="index.html"><span class="brand-icon" aria-hidden="true">✓</span><span>무비가드</span></a><p>브라우저 영상 필터링 웹 프로토타입 · 2026</p></footer>
+  <script type="module" src="videos_script.js?v=video-posters-1"></script>
+</body>
+</html>

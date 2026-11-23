@@ -1,0 +1,141 @@
+{
+  "profiles": [
+    {
+      "id": "검은 사제들",
+      "title": "검은 사제들",
+      "theme": "horror",
+      "segments": [
+        {
+          "id": "Priests-001",
+          "start": 5.2,
+          "end": 13.1,
+          "type": "blur",
+          "reason": "피를 토하는 장면",
+          "summary": "인물이 피를 토합니다."
+        }
+      ]
+    },
+    {
+      "id": "gonjiam",
+      "title": "곤지암",
+      "theme": "horror",
+      "segments": [
+        {
+          "id": "gonji-001",
+          "start": 0,
+          "end": 2.4,
+          "type": "blur",
+          "reason": "귀신의 실루엣",
+          "summary": "귀신의 실루엣이 나타납니다."
+        },
+        {
+          "id": "gonji-002",
+          "start": 6,
+          "end": 10.5,
+          "type": "blur",
+          "reason": "귀신 등장",
+          "summary": "귀신이 나타납니다."
+        }
+      ]
+    },
+    {
+      "id": "quiet-place",
+      "title": "Quiet Place",
+      "theme": "horror",
+      "segments": [
+        {
+          "id": "Quiet-001",
+          "start": 11,
+          "end": 12.5,
+          "type": "blur",
+          "reason": "정신 차린 괴물의 습격",
+          "summary": "괴물이 습격합니다."
+        },
+        {
+          "id": "Quiet-002",
+          "start": 13.2,
+          "end": 15.2,
+          "type": "blur",
+          "reason": "에블린의 반격",
+          "summary": "에블린이 반격합니다."
+        }
+      ]
+    },
+    {
+      "id": "dp",
+      "title": "DP",
+      "theme": "violence",
+      "segments": [
+        {
+          "id": "DP-001",
+          "start": 7.1,
+          "end": 8.7,
+          "type": "blur",
+          "reason": "석봉의 폭력",
+          "summary": "석봉이 폭력을 행사합니다."
+        },
+        {
+          "id": "DP-002",
+          "start": 8.3,
+          "end": 9.4,
+          "type": "blur",
+          "reason": "석봉의 폭력",
+          "summary": "석봉이 폭력을 행사합니다."
+        },
+        {
+          "id": "DP-003",
+          "start": 10.1,
+          "end": 10.4,
+          "type": "blur",
+          "reason": "석봉의 폭력",
+          "summary": "석봉이 폭력을 행사합니다."
+        }
+      ]
+    },
+    {
+      "id": "teach-you",
+      "title": "Teach you a lesson",
+      "theme": "violence",
+      "segments": [
+        {
+          "id": "true-001",
+          "start": 8.0,
+          "end": 9.2,
+          "type": "blur",
+          "reason": "칼에 맞는 화진",
+          "summary": "화진이 칼에 맞습니다."
+        }
+      ]
+    },
+    {
+      "id": "bridgerton",
+      "title": "Bridgerton",
+      "theme": "sexual",
+      "segments": [
+        {
+          "id": "Bridgerton-001",
+          "start": 3.7,
+          "end": 10.2,
+          "type": "both",
+          "reason": "격렬한 키스씬",
+          "summary": "인물들이 서로 입을 맞춥니다."
+        }
+      ]
+    },
+    {
+      "id": "parasite",
+      "title": "기생충",
+      "theme": "sexual",
+      "segments": [
+        {
+          "id": "parasite-001",
+          "start": 8,
+          "end": 28,
+          "type": "both",
+          "reason": "동익과 연교의 은밀한 시간",
+          "summary": "동익과 연교가 은밀한 시간을 보냅니다."
+        }
+      ]
+    }
+  ]
+}

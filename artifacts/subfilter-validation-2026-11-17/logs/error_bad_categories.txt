@@ -1,0 +1,17 @@
+["/Library/Developer/CommandLineTools/usr/bin/python3", "-m", "subfilter", "/Users/lee/Documents/ChatGPT/movie_guard 2/artifacts/subfilter-validation-2026-11-17/fixtures/mixed_scenes.srt", "-o", "/Users/lee/Documents/ChatGPT/movie_guard 2/artifacts/subfilter-validation-2026-11-17/outputs/error_bad_categories.json", "--cache-dir", "", "--mock", "--categories", "unknown"]
+exit=2
+STDOUT
+
+STDERR
+usage: subfilter [-h] [-o OUTPUT] [--title TITLE] [--categories CATEGORIES]
+                 [--min-severity {1,2,3}] [--model MODEL] [--mock]
+                 [--effort {low,medium,high,xhigh,max,default}]
+                 [--chunk-size CHUNK_SIZE] [--context-cues CONTEXT_CUES]
+                 [--no-global-context] [--merge-gap-ms MERGE_GAP_MS]
+                 [--pre-roll-ms PRE_ROLL_MS] [--post-roll-ms POST_ROLL_MS]
+                 [--min-confidence MIN_CONFIDENCE]
+                 [--review-threshold REVIEW_THRESHOLD]
+                 [--gap-report-ms GAP_REPORT_MS] [--duration-ms DURATION_MS]
+                 [--workers WORKERS] [--cache-dir CACHE_DIR] [-v]
+                 input
+subfilter: error: --categories에는 horror, sexual, violence 중에서 고르세요 (잘못된 값: unknown)

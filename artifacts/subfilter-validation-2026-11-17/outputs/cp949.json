@@ -1,0 +1,29 @@
+{
+  "title": "cp949",
+  "segments": [
+    {
+      "id": "seg-001",
+      "start": 8,
+      "end": 14,
+      "type": "both",
+      "reason": "공포: 키워드 감지: 비명",
+      "summary": "(mock 모드: 장면 요약 생략)"
+    },
+    {
+      "id": "seg-002",
+      "start": 38,
+      "end": 45,
+      "type": "both",
+      "reason": "선정성: 키워드 감지: 침대, 벗어, 옷을",
+      "summary": "(mock 모드: 장면 요약 생략)"
+    },
+    {
+      "id": "seg-003",
+      "start": 78,
+      "end": 85,
+      "type": "both",
+      "reason": "폭력성: 키워드 감지: 총성, 총, 칼",
+      "summary": "(mock 모드: 장면 요약 생략)"
+    }
+  ]
+}

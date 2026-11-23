@@ -1,0 +1,13 @@
+{
+  "title": "Teach you a lesson",
+  "segments": [
+    {
+      "id": "true-001",
+      "start": 8.0,
+      "end": 9.2,
+      "type": "blur",
+      "reason": "칼에 맞는 화진",
+      "summary": "화진이 칼에 맞습니다."
+    }
+  ]
+}

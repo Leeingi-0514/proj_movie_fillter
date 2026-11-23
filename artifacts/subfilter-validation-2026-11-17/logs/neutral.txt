@@ -1,0 +1,12 @@
+["/Library/Developer/CommandLineTools/usr/bin/python3", "-m", "subfilter", "/Users/lee/Documents/ChatGPT/movie_guard 2/artifacts/subfilter-validation-2026-11-17/fixtures/neutral.srt", "-o", "/Users/lee/Documents/ChatGPT/movie_guard 2/artifacts/subfilter-validation-2026-11-17/outputs/neutral.json", "--cache-dir", "", "--mock"]
+exit=0
+STDOUT
+완료: /Users/lee/Documents/ChatGPT/movie_guard 2/artifacts/subfilter-validation-2026-11-17/outputs/neutral.json  (구간 0개)
+  공포   장면   0개, 최고 심각도 0
+  선정성  장면   0개, 최고 심각도 0
+  폭력성  장면   0개, 최고 심각도 0
+
+STDERR
+
+분석 중... 0/1 청크
+분석 중... 1/1 청크

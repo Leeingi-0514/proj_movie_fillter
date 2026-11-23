@@ -1,0 +1,268 @@
+[
+  {
+    "path": "/Users/lee/Documents/ChatGPT/movie_guard 2/artifacts/subfilter-validation-2026-11-17/outputs/shipped_srt.json",
+    "types": [
+      "both",
+      "both",
+      "both"
+    ],
+    "web": {
+      "accepted": true,
+      "count": 3
+    },
+    "extension": {
+      "accepted": true,
+      "count": 3
+    }
+  },
+  {
+    "path": "/Users/lee/Documents/ChatGPT/movie_guard 2/artifacts/subfilter-validation-2026-11-17/outputs/shipped_vtt.json",
+    "types": [
+      "both"
+    ],
+    "web": {
+      "accepted": true,
+      "count": 1
+    },
+    "extension": {
+      "accepted": true,
+      "count": 1
+    }
+  },
+  {
+    "path": "/Users/lee/Documents/ChatGPT/movie_guard 2/artifacts/subfilter-validation-2026-11-17/outputs/shipped_ass.json",
+    "types": [
+      "both"
+    ],
+    "web": {
+      "accepted": true,
+      "count": 1
+    },
+    "extension": {
+      "accepted": true,
+      "count": 1
+    }
+  },
+  {
+    "path": "/Users/lee/Documents/ChatGPT/movie_guard 2/artifacts/subfilter-validation-2026-11-17/outputs/shipped_smi.json",
+    "types": [
+      "both"
+    ],
+    "web": {
+      "accepted": true,
+      "count": 1
+    },
+    "extension": {
+      "accepted": true,
+      "count": 1
+    }
+  },
+  {
+    "path": "/Users/lee/Documents/ChatGPT/movie_guard 2/artifacts/subfilter-validation-2026-11-17/outputs/mixed_scenes.json",
+    "types": [
+      "both",
+      "both",
+      "both"
+    ],
+    "web": {
+      "accepted": true,
+      "count": 3
+    },
+    "extension": {
+      "accepted": true,
+      "count": 3
+    }
+  },
+  {
+    "path": "/Users/lee/Documents/ChatGPT/movie_guard 2/artifacts/subfilter-validation-2026-11-17/outputs/neutral.json",
+    "types": [],
+    "web": {
+      "accepted": true,
+      "count": 0
+    },
+    "extension": {
+      "accepted": true,
+      "count": 0
+    }
+  },
+  {
+    "path": "/Users/lee/Documents/ChatGPT/movie_guard 2/artifacts/subfilter-validation-2026-11-17/outputs/violence_only.json",
+    "types": [
+      "both"
+    ],
+    "web": {
+      "accepted": true,
+      "count": 1
+    },
+    "extension": {
+      "accepted": true,
+      "count": 1
+    }
+  },
+  {
+    "path": "/Users/lee/Documents/ChatGPT/movie_guard 2/artifacts/subfilter-validation-2026-11-17/outputs/severity_3.json",
+    "types": [
+      "both",
+      "both"
+    ],
+    "web": {
+      "accepted": true,
+      "count": 2
+    },
+    "extension": {
+      "accepted": true,
+      "count": 2
+    }
+  },
+  {
+    "path": "/Users/lee/Documents/ChatGPT/movie_guard 2/artifacts/subfilter-validation-2026-11-17/outputs/confidence_06.json",
+    "types": [],
+    "web": {
+      "accepted": true,
+      "count": 0
+    },
+    "extension": {
+      "accepted": true,
+      "count": 0
+    }
+  },
+  {
+    "path": "/Users/lee/Documents/ChatGPT/movie_guard 2/artifacts/subfilter-validation-2026-11-17/outputs/long_205_cues.json",
+    "types": [
+      "both",
+      "both"
+    ],
+    "web": {
+      "accepted": true,
+      "count": 2
+    },
+    "extension": {
+      "accepted": true,
+      "count": 2
+    }
+  },
+  {
+    "path": "/Users/lee/Documents/ChatGPT/movie_guard 2/artifacts/subfilter-validation-2026-11-17/outputs/utf8_bom.json",
+    "types": [
+      "both",
+      "both",
+      "both"
+    ],
+    "web": {
+      "accepted": true,
+      "count": 3
+    },
+    "extension": {
+      "accepted": true,
+      "count": 3
+    }
+  },
+  {
+    "path": "/Users/lee/Documents/ChatGPT/movie_guard 2/artifacts/subfilter-validation-2026-11-17/outputs/utf16.json",
+    "types": [
+      "both",
+      "both",
+      "both"
+    ],
+    "web": {
+      "accepted": true,
+      "count": 3
+    },
+    "extension": {
+      "accepted": true,
+      "count": 3
+    }
+  },
+  {
+    "path": "/Users/lee/Documents/ChatGPT/movie_guard 2/artifacts/subfilter-validation-2026-11-17/outputs/cp949.json",
+    "types": [
+      "both",
+      "both",
+      "both"
+    ],
+    "web": {
+      "accepted": true,
+      "count": 3
+    },
+    "extension": {
+      "accepted": true,
+      "count": 3
+    }
+  },
+  {
+    "path": "/Users/lee/Documents/ChatGPT/movie_guard 2/artifacts/subfilter-validation-2026-11-17/outputs/media_modes.json",
+    "types": [
+      "audio",
+      "video",
+      "both"
+    ],
+    "web": {
+      "accepted": false,
+      "error": "필터 구간의 ID, 시작·종료 시간, 필터 종류와 요약 문자열을 확인해 주세요."
+    },
+    "extension": {
+      "accepted": false,
+      "error": "1번째 구간의 type은 blur, mute, both, skip 중 하나여야 합니다."
+    }
+  },
+  {
+    "path": "/Users/lee/Documents/ChatGPT/movie_guard 2/artifacts/subfilter-validation-2026-11-17/outputs/overlap_range.json",
+    "types": [
+      "both"
+    ],
+    "web": {
+      "accepted": true,
+      "count": 1
+    },
+    "extension": {
+      "accepted": true,
+      "count": 1
+    }
+  },
+  {
+    "path": "/Users/lee/Documents/ChatGPT/movie_guard 2/artifacts/subfilter-validation-2026-11-17/outputs/adjacent_severity.json",
+    "types": [
+      "both"
+    ],
+    "web": {
+      "accepted": true,
+      "count": 1
+    },
+    "extension": {
+      "accepted": true,
+      "count": 1
+    }
+  },
+  {
+    "path": "/Users/lee/Documents/ChatGPT/movie_guard 2/artifacts/subfilter-validation-2026-11-17/outputs/api_response_replay.json",
+    "types": [
+      "audio",
+      "video",
+      "both"
+    ],
+    "web": {
+      "accepted": false,
+      "error": "필터 구간의 ID, 시작·종료 시간, 필터 종류와 요약 문자열을 확인해 주세요."
+    },
+    "extension": {
+      "accepted": false,
+      "error": "1번째 구간의 type은 blur, mute, both, skip 중 하나여야 합니다."
+    }
+  },
+  {
+    "path": "/Users/lee/Documents/ChatGPT/movie_guard 2/artifacts/subfilter-validation-2026-11-17/outputs/web-download.json",
+    "types": [
+      "both",
+      "both",
+      "both"
+    ],
+    "web": {
+      "accepted": true,
+      "count": 3
+    },
+    "extension": {
+      "accepted": true,
+      "count": 3
+    }
+  }
+]

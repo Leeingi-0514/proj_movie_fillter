@@ -1,0 +1,29 @@
+{
+  "title": "DP",
+  "segments": [
+    {
+      "id": "DP-001",
+      "start": 7.1,
+      "end": 8.7,
+      "type": "blur",
+      "reason": "석봉의 폭력",
+      "summary": "석봉이 폭력을 행사합니다."
+    },
+    {
+      "id": "DP-002",
+      "start": 8.3,
+      "end": 9.4,
+      "type": "blur",
+      "reason": "석봉의 폭력",
+      "summary": "석봉이 폭력을 행사합니다."
+    },
+    {
+      "id": "DP-003",
+      "start": 10.1,
+      "end": 10.4,
+      "type": "blur",
+      "reason": "석봉의 폭력",
+      "summary": "석봉이 폭력을 행사합니다."
+    }
+  ]
+}

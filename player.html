@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="영상별로 등록된 구간에 블러·음소거·스킵 필터를 적용해 감상하세요.">
+  <title>영상 재생 — 무비가드</title>
+  <link rel="stylesheet" href="player_style.css?v=skip-summary-1">
+</head>
+<body>
+  <main>
+    <nav class="player-nav" aria-label="페이지 이동">
+      <a class="brand" href="index.html"><span aria-hidden="true">✓</span> 무비가드</a>
+      <a id="backToList" href="index.html#popular">← 테마 선택</a>
+    </nav>
+    <header>
+      <div><p id="themeLabel">MOVIEGUARD · FILTER PLAYER</p><h1 id="videoTitle">영상을 준비하고 있어요</h1><p class="video-description" id="videoDescription"></p></div>
+      <div class="state"><i aria-hidden="true"></i><span id="stateText">불러오는 중</span></div>
+    </header>
+    <p class="page-message" id="pageMessage" role="alert" hidden></p>
+    <section class="player" id="player" aria-label="영상 플레이어">
+      <div class="video-surface">
+        <video id="video" controls playsinline preload="metadata" aria-label="선택한 영상" aria-describedby="keyboardHint"></video>
+        <p class="player-placeholder" id="playerPlaceholder">영상을 불러오는 중이에요.</p>
+        <div id="badge" hidden></div>
+        <div id="skipSummary" class="skip-summary" role="status" aria-live="polite" hidden>
+          <div class="skip-summary-card"><p class="skip-summary-kicker">건너뛸 장면 요약</p><p id="skipSummaryText"></p><p id="skipSummaryHint" class="skip-summary-hint"></p></div>
+        </div>
+      </div>
+      <div class="media-controls" id="mediaControls" hidden>
+        <button id="playToggle" type="button" disabled aria-label="영상 재생">▶ 재생</button>
+        <span class="playback-time"><span id="currentTime">00:00</span> / <span id="duration">00:00</span></span>
+        <input id="seek" type="range" min="0" max="0" step="0.1" value="0" aria-label="영상 재생 위치" aria-keyshortcuts="ArrowLeft ArrowRight" aria-describedby="keyboardHint" disabled>
+        <button id="muteToggle" type="button" aria-label="소리 끄기">소리 끄기</button>
+        <button id="fullscreenToggle" type="button" aria-label="전체 화면">⛶</button>
+      </div>
+    </section>
+    <p class="control-hint" id="keyboardHint">키보드 ← / →로 5초씩 이동할 수 있어요.</p>
+    <section class="controls" aria-labelledby="controlsTitle">
+      <div class="controls-heading"><div><p class="section-kicker">YOUR COMFORT, YOUR CHOICE</p><h2 id="controlsTitle">어떻게 감상할까요?</h2></div></div>
+      <div class="filter-options" role="group" aria-label="필터 방식 선택">
+        <button type="button" data-filter="blur" aria-pressed="false" disabled>블러</button>
+        <button type="button" data-filter="mute" aria-pressed="false" disabled>음소거</button>
+        <button type="button" data-filter="both" aria-pressed="false" disabled>블러 + 음소거</button>
+        <button type="button" data-filter="skip" aria-pressed="false" disabled>스킵</button>
+      </div>
+      <p class="control-hint" id="filterHint" role="status">필터 구간을 불러오는 중이에요.</p>
+    </section>
+    <section class="timeline" aria-labelledby="segmentsTitle">
+      <div class="timeline-heading"><div><p class="section-kicker">PROTECTED MOMENTS</p><h2 id="segmentsTitle">이 영상의 필터 구간 <span id="segmentCount">0개</span></h2></div><button id="jump" type="button" disabled>첫 구간 체험하기 →</button></div>
+      <p class="timeline-note">선택한 필터가 아래 모든 구간에 적용돼요. 음소거 중에도 소리 버튼으로 직접 해제할 수 있어요.</p>
+      <div class="segment-track" id="segmentTrack" aria-hidden="true"></div>
+      <p class="empty-segments" id="emptySegments">필터 구간을 확인하고 있어요.</p>
+      <ol class="segment-list" id="segmentList"></ol>
+    </section>
+    <p class="player-footnote" id="demoNote" hidden>현재 영상과 표시된 구간은 필터 기능을 확인하기 위한 체험용이에요.</p>
+    <noscript><p>영상과 필터를 사용하려면 브라우저의 JavaScript를 켜 주세요.</p></noscript>
+  </main>
+  <script type="module" src="player_script.js?v=skip-summary-1"></script>
+</body>
+</html>

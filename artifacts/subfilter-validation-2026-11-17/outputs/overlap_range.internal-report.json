@@ -1,0 +1,77 @@
+{
+  "schema_version": "1.0",
+  "source": {
+    "file_name": "overlap_range.srt",
+    "format": "srt",
+    "encoding_detected": "utf-8-sig",
+    "cue_count": 2,
+    "sha256": "a2dc823623c6a87d575fbb75aee66492fed3613fd5a6fff04765dafe58877002",
+    "duration_ms": 40000
+  },
+  "analysis": {
+    "model": "scripted-fixture",
+    "effort": null,
+    "prompt_version": "2026-11-17.1",
+    "settings": {
+      "chunk_size": 100,
+      "context_cues": 10,
+      "use_global_context": true,
+      "merge_gap_ms": 3000,
+      "pre_roll_ms": 0,
+      "post_roll_ms": 0,
+      "min_confidence": 0.3,
+      "review_threshold": 0.6,
+      "gap_report_ms": 60000,
+      "duration_ms": 40000
+    },
+    "created_at": "2026-11-17T16:40:33+09:00",
+    "complete": true,
+    "failed_chunks": []
+  },
+  "context": {
+    "genre_guess": [
+      "fixture"
+    ],
+    "synopsis": "결정적 검증 데이터",
+    "notes": "실제 AI 분석 결과가 아님"
+  },
+  "summary": {
+    "horror": {
+      "max_severity": 0,
+      "segment_count": 0,
+      "total_ms": 0
+    },
+    "sexual": {
+      "max_severity": 0,
+      "segment_count": 0,
+      "total_ms": 0
+    },
+    "violence": {
+      "max_severity": 2,
+      "segment_count": 1,
+      "total_ms": 6000
+    }
+  },
+  "segments": [
+    {
+      "id": "seg_0001",
+      "category": "violence",
+      "subcategory": "other",
+      "severity": 2,
+      "confidence": 0.9,
+      "start_ms": 10000,
+      "end_ms": 16000,
+      "start": "00:00:10.000",
+      "end": "00:00:16.000",
+      "cue_ids": [
+        1,
+        2
+      ],
+      "reason": "결정적 검증용 판단 근거",
+      "summary": "결정적 검증용 장면 요약",
+      "media": "both",
+      "needs_review": false
+    }
+  ],
+  "unanalyzed_gaps": []
+}

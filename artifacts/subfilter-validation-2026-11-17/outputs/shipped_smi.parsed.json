@@ -1,0 +1,21 @@
+{
+  "meta": {
+    "format": "smi",
+    "encoding_detected": "cp949",
+    "cue_count": 2
+  },
+  "cues": [
+    {
+      "id": 1,
+      "start_ms": 5000,
+      "end_ms": 7500,
+      "text": "여기가 그 산장이야?"
+    },
+    {
+      "id": 2,
+      "start_ms": 45000,
+      "end_ms": 47000,
+      "text": "[비명] / 살려줘!"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "title": "sample",
+  "segments": [
+    {
+      "id": "seg-001",
+      "start": 43,
+      "end": 50,
+      "type": "both",
+      "reason": "공포: 키워드 감지: 비명 / 키워드 감지: 귀신, 살려",
+      "summary": "(mock 모드: 장면 요약 생략)"
+    },
+    {
+      "id": "seg-002",
+      "start": 151,
+      "end": 156,
+      "type": "both",
+      "reason": "선정성: 키워드 감지: 침대, 키스",
+      "summary": "(mock 모드: 장면 요약 생략)"
+    },
+    {
+      "id": "seg-003",
+      "start": 248,
+      "end": 256,
+      "type": "both",
+      "reason": "폭력성: 키워드 감지: 칼, 죽여 / 키워드 감지: 총성, 총 / 키워드 감지: 피가",
+      "summary": "(mock 모드: 장면 요약 생략)"
+    }
+  ]
+}
